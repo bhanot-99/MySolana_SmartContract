@@ -1,0 +1,15 @@
+[package]
+name = "hello_world"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+
+[dependencies]
+solana-program = "2.1.20"
+solana-sdk = "2.1.20"
+
+[dev-dependencies]
+solana-program-test = "2.1.20"
+tokio = { version = "1", features = ["full"] }
