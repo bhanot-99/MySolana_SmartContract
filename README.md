@@ -28,3 +28,4 @@ Make sure you have the following installed:
 
 ## 📁 Project Structure
 
+simple-solana-smart-contract/ ├── programs/ │ └── my_contract/ # Main smart contract code (Rust) │ └── src/lib.rs # Rust entry point ├── tests/ # Integration tests ├── target/ # Build output ├── Anchor.toml # Anchor config (if using Anchor) ├── Cargo.toml # Rust dependencies └── README.md # Project documentation
