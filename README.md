@@ -25,7 +25,3 @@ Make sure you have the following installed:
 - [Solana CLI](https://docs.solana.com/cli/install-solana-cli-tools)
 - [Node.js & npm](https://nodejs.org/) (if using Anchor or frontend tools)
 - [Anchor Framework](https://www.anchor-lang.com/docs/installation) *(optional)*
-
-## 📁 Project Structure
-
-simple-solana-smart-contract/ ├── programs/ │ └── my_contract/ # Main smart contract code (Rust) │ └── src/lib.rs # Rust entry point ├── tests/ # Integration tests ├── target/ # Build output ├── Anchor.toml # Anchor config (if using Anchor) ├── Cargo.toml # Rust dependencies └── README.md # Project documentation
